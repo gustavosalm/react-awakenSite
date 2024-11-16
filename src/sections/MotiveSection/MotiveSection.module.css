@@ -1,0 +1,48 @@
+.mainContainer {
+    background-color: #1F2326;
+    padding: 3.7rem 0 5rem 0;
+}
+
+.imgSide img {
+    width: 100%;
+}
+
+.textSide h1 {
+    font-size: 2.125rem;
+    line-height: 2.125rem;
+    font-weight: 700;
+    color: #EBEFEF;
+    margin: 0;
+}
+
+.textSide span {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: #E06B9F;
+}
+
+.textSide p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #EBEFEF;
+    margin: 0.75rem 0 0 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.25rem !important;
+    padding: 1.5rem 1rem;
+    /* height: 6.5rem; */
+    margin-top: 1.875rem;
+}
+
+.card p {
+    line-height: 1.25rem;
+    color: black;
+    margin: 0 0 0 2.5rem;
+}
