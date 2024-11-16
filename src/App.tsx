@@ -1,11 +1,10 @@
+import MainPage from "./pages"
 
 function App() {
 
   return (
     <>
-      <p>
-        Initial page
-      </p>
+      <MainPage />
     </>
   )
 }
