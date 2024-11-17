@@ -1,0 +1,55 @@
+.titleContainer {
+    margin: 2.75rem 0 2rem 0;
+    text-align: center;
+    color: #303030;
+}
+
+.titleContainer h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.titleContainer p {
+    font-size: 1.25rem;
+    margin: 1rem 0 0 0;
+}
+
+.offerCard {
+    padding: 3rem 2.3rem 1.75rem 2.3rem;
+    background-color: #D5D0D0 !important;
+    border-radius: 1rem !important;
+}
+
+.cardTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cardTitle h2 {
+    margin-left: 0.75rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #161A1D;
+}
+
+.cardDivision {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardDivision p {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #161A1D;
+    margin: 0;
+}
+
+.cardDivision div {
+    border-bottom: 1px dashed black;
+    margin-top: 1px;
+    margin-left: .75rem;
+    width: 100%;
+}
