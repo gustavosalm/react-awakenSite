@@ -1,18 +1,29 @@
-import { List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+import { Button, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import styles from './OfferCardComponent.module.css';
 import React from 'react';
 
 type OfferCardComponent = {
     title: string,
-    offerItems: string[]
+    offerItems: string[],
+    buttonLabel: string,
+    priceLabels?: string[],
+    variant?: boolean
 }
 
-const OfferCardComponent: React.FC<OfferCardComponent> = ({title, offerItems}) => {
+const OfferCardComponent: React.FC<OfferCardComponent> = ({
+    title,
+    offerItems,
+    buttonLabel,
+    priceLabels = ['', ''],
+    variant = false
+}) => {
 
     return (
-        <>
+        <div className={(variant) ? styles.darkColor : styles.defaultColor}>
             <div className={styles.cardTitle}>
-                <img src='./assets/icons/StarIcon.svg' />
+                <img 
+                    src={(variant) ? './assets/icons/CrownIcon.svg' : './assets/icons/StarIcon.svg'}
+                />
                 <h2>{title}</h2>
             </div>
             <div className={styles.cardDivision}>
@@ -34,7 +45,15 @@ const OfferCardComponent: React.FC<OfferCardComponent> = ({title, offerItems}) =
             <div className={styles.cardDivision}>
                 <div></div>
             </div>
-        </>
+            {(!variant) ?
+                <div className={styles.cardPrice}>
+                    <p>DE R${priceLabels[0]}</p>
+                    <h2>POR R${priceLabels[1]}/mês</h2>
+                </div> :
+                <div></div>
+            }
+            <Button className={styles.cardButton} color="secondary" variant="contained" >{buttonLabel}</Button>
+        </div>
     )
 }
 

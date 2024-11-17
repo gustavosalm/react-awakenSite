@@ -1,3 +1,7 @@
+.outerContainer {
+    margin-bottom: 8rem;
+}
+
 .titleContainer {
     margin: 2.75rem 0 2rem 0;
     text-align: center;
@@ -15,8 +19,9 @@
 }
 
 .offerCard {
-    padding: 3rem 2.3rem 1.75rem 2.3rem;
-    background-color: #D5D0D0 !important;
+    /* padding: 3rem 2.3rem 1.75rem 2.3rem;
+    background-color: #D5D0D0 !important; */
+    overflow: hidden;
     border-radius: 1rem !important;
 }
 

@@ -1,3 +1,19 @@
+.defaultColor {
+    --font-color: #161A1D;
+    --secondary-font-color: #161A1D;
+    --button-font-color: #fff;
+    background-color: #D5D0D0;
+    padding: 3rem 2.3rem 1.75rem 2.3rem;
+}
+
+.darkColor {
+    --font-color: #EBEFEF;
+    --secondary-font-color: #979797;
+    --button-font-color: #161A1D;
+    background-color: #161A1D;
+    padding: 3rem 2.3rem 1.75rem 2.3rem;
+}
+
 .cardTitle {
     display: flex;
     flex-direction: row;
@@ -10,7 +26,7 @@
     margin-left: 0.75rem;
     font-size: 2rem;
     line-height: 2rem;
-    color: #161A1D;
+    color: var(--font-color);
 }
 
 .cardDivision {
@@ -23,13 +39,13 @@
 .cardDivision p {
     font-size: 1rem;
     line-height: 1rem;
-    color: #161A1D;
+    color: var(--secondary-font-color);
     margin: 0;
     margin-right: .75rem;
 }
 
 .cardDivision div {
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed var(--secondary-font-color);
     margin-top: 1px;
     width: 100%;
 }
@@ -41,10 +57,38 @@
 .cardList li span {
     font-size: 1rem;
     line-height: 1.25rem;
-    color: #161A1D;
+    color: var(--font-color);
 }
 
 .cardList li div {
     min-width: 0 !important;
     margin-right: .625rem;
+}
+
+.cardPrice {
+    margin-top: 1.25rem;
+}
+
+.cardPrice p {
+    margin: 0;
+    text-decoration-line: line-through;
+    color: var(--font-color);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+
+.cardPrice h2 {
+    margin: 0;
+    margin-top: .5rem;
+    white-space: nowrap;
+    color: var(--font-color);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.cardButton {
+    margin-top: 1.5rem !important;
+    color: var(--button-font-color) !important;
 }
