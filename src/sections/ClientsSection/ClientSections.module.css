@@ -1,0 +1,39 @@
+.outerContainer {
+    margin-bottom: 8rem;
+}
+
+.outerContainer h1 {
+    color: #0D0E0E;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.sponsors {
+    display: flex;
+    gap: .5rem 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.textContainer * {
+    color: #0B0A0A;
+}
+
+.textContainer h3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.textContainer p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 300;
+    margin: 1rem 0 0 0;
+}
+
+.budgetButton {
+    margin-top: 2rem;
+}

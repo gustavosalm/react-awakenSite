@@ -1,3 +1,4 @@
+import ClientSections from "../sections/ClientsSection/ClientSections";
 import IntroSection from "../sections/IntroSection/IntroSection";
 import MotiveSection from "../sections/MotiveSection/MotiveSection";
 import ServicesSection from "../sections/ServicesSection/ServicesSection";
@@ -11,6 +12,7 @@ const MainPage = () => {
             <ServicesSection />
             <MotiveSection />
             <SubscriptionSection />
+            <ClientSections />
         </>
     )
 }
