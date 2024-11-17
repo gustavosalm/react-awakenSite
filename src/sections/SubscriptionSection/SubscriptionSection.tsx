@@ -13,12 +13,12 @@ const SubscriptionSection = () => {
     return (
         <>
             <Grid2 container columns={12} className={styles.outerContainer}>
-                <Grid2 className={styles.titleContainer} size={6} offset={3} >
+                <Grid2 className={styles.titleContainer} size={{xs: 10, sm: 6}} offset={{xs: 1, sm: 3}} >
                     <h1>Uma agência por assinatura</h1>
                     <p>Escolha um dos planos abaixo:</p>
                 </Grid2>
                 <Grid2 container size={10} offset={1} spacing={2} >
-                    <Grid2 size={4}>
+                    <Grid2 size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}}>
                         <Paper className={styles.offerCard}>
                             <OfferCardComponent
                                 title='Creative'
@@ -28,7 +28,7 @@ const SubscriptionSection = () => {
                             />
                         </Paper>
                     </Grid2>
-                    <Grid2 size={4}>
+                    <Grid2 size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}}>
                         <Paper className={styles.offerCard}>
                             <OfferCardComponent
                                 title='Digital'
@@ -38,7 +38,7 @@ const SubscriptionSection = () => {
                             />
                         </Paper>
                     </Grid2>
-                    <Grid2 size={4}>
+                    <Grid2 size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}}>
                         <Paper className={styles.offerCard}>
                             <OfferCardComponent
                                 title='Quero algo personalizado'

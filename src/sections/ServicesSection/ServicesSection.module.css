@@ -53,8 +53,8 @@
     background-image: url('../../assets/backgrounds/BackgroundRequestContainer.svg');
     background-size: cover;
     border-radius: 1.5rem;
-    padding: 0 2.75rem;
-    height: 9.75rem;
+    padding: 2.5rem 2.75rem;
+    /* height: 9.75rem; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,9 +64,13 @@
 
 .requestContainer p {
     color: #161A1D;
-    width: 70%;
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 600;
     margin: 0;
+}
+
+.buttonGridContainer {
+    display: flex;
+    justify-content: center;
 }
