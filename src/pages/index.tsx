@@ -1,3 +1,4 @@
+import FooterComponent from "../components/FooterComponent/FooterComponent";
 import ClientSections from "../sections/ClientsSection/ClientSections";
 import IntroSection from "../sections/IntroSection/IntroSection";
 import MotiveSection from "../sections/MotiveSection/MotiveSection";
@@ -13,6 +14,7 @@ const MainPage = () => {
             <MotiveSection />
             <SubscriptionSection />
             <ClientSections />
+            <FooterComponent />
         </>
     )
 }

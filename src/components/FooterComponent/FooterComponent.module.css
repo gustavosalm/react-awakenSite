@@ -1,0 +1,37 @@
+.outerContainer {
+    background-color: #161A1D;
+    padding: 2rem 0;
+}
+
+.outerContainer p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
+    margin: 0;
+}
+
+.outerContainer span {
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: #E06B9F;
+}
+
+.logoImg {
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rightContainer {
+    text-align: right;
+}
+
+.contacts {
+    margin-top: 1rem;
+}
+
+.contacts img {
+    height: 2.5rem;
+    margin-left: 1rem;
+}
