@@ -9,9 +9,10 @@ const MotiveSection = () => {
                 <Grid2 className={styles.imgSide} offset={1} size={5}>
                     <img src='./assets/MotiveSectionAsset.svg' />
                 </Grid2>
-                <Grid2 className={styles.textSide} size={5}>
+                <Grid2 className={styles.textSide} size={{xs: 10, sm: 5}} offset={{xs: 1, sm: 0}}>
                     <h1>Para quem é a <span>AWAKEN</span>?</h1>
                     <p>A Awaken é uma agência pra toda empresa mundo que quer atrair, se relacionar, converter e fidelizar clientes no digital.</p>
+                    <img className={styles.mobileSideImg} src='./assets/MotiveSectionAsset.svg' />
                     <Paper className={styles.card}>
                         <img src='./assets/icons/ClinicIcon.svg' />
                         <p><strong>Clínicas e escritórios.</strong> Atraia novos clientes e fortaleça sua marca com estratégias digitais focadas em conversão e credibilidade da sua clínica ou escritório.</p>
