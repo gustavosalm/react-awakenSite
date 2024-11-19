@@ -6,7 +6,7 @@ const ClientSections = () => {
     return (
         <>
             <Grid2 className={styles.outerContainer} container columns={12} spacing={2}>
-                <Grid2 size={6} offset={1}>
+                <Grid2 size={{xs: 10, sm: 6}} offset={1}>
                     <h1>Alguns dos nossos clientes</h1>
                     <div className={styles.sponsors}>
                         <img src='./assets/sponsors/Fiocruz.png' />
@@ -17,7 +17,7 @@ const ClientSections = () => {
                         <img src='./assets/sponsors/Rhymbo.png' />
                     </div>
                 </Grid2>
-                <Grid2 className={styles.textContainer} size={4}>
+                <Grid2 className={styles.textContainer} size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}} >
                     <h1>Fortaleça sua marca e alavanque seu negócio.</h1>
                     <h3>Comunique-se de maneira natural e pessoal.</h3>
                     <p>A Awaken desenvolve estratégias de marca para que possa estabelecer uma conexão genuína com seu público.</p>
