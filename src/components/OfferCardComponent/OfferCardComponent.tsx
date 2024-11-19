@@ -45,13 +45,15 @@ const OfferCardComponent: React.FC<OfferCardComponent> = ({
             <div className={styles.cardDivision}>
                 <div></div>
             </div>
-            {(!variant) ?
                 <div className={styles.cardPrice}>
-                    <p>DE R${priceLabels[0]}</p>
-                    <h2>POR R${priceLabels[1]}/mês</h2>
-                </div> :
-                <div></div>
-            }
+                    {(!variant) ? 
+                        <>
+                            <p>DE R${priceLabels[0]}</p>
+                            <h2>POR R${priceLabels[1]}/mês</h2>
+                        </> :
+                        <h2>VALORES DIFERENCIADOS</h2>
+                    }
+                </div>
             <Button className={styles.cardButton} color="secondary" variant="contained" >{buttonLabel}</Button>
         </div>
     )

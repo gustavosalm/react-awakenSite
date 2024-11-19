@@ -58,3 +58,13 @@
     margin-left: .75rem;
     width: 100%;
 }
+
+@media (max-width: 600px) {
+    .titleContainer {
+        display: none;
+    }
+
+    .offerCard {
+        margin-top: 2.25rem;
+    }
+}

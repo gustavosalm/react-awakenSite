@@ -17,8 +17,8 @@ const SubscriptionSection = () => {
                     <h1>Uma agência por assinatura</h1>
                     <p>Escolha um dos planos abaixo:</p>
                 </Grid2>
-                <Grid2 container size={10} offset={1} spacing={2} >
-                    <Grid2 size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}}>
+                <Grid2 container size={10} offset={1} spacing={{xs: 0, sm: 2}} >
+                    <Grid2 size={{xs: 12, sm: 4}} >
                         <Paper className={styles.offerCard}>
                             <OfferCardComponent
                                 title='Creative'
@@ -28,7 +28,7 @@ const SubscriptionSection = () => {
                             />
                         </Paper>
                     </Grid2>
-                    <Grid2 size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}}>
+                    <Grid2 size={{xs: 12, sm: 4}} >
                         <Paper className={styles.offerCard}>
                             <OfferCardComponent
                                 title='Digital'
@@ -38,7 +38,7 @@ const SubscriptionSection = () => {
                             />
                         </Paper>
                     </Grid2>
-                    <Grid2 size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}}>
+                    <Grid2 size={{xs: 12, sm: 4}} >
                         <Paper className={styles.offerCard}>
                             <OfferCardComponent
                                 title='Quero algo personalizado'
