@@ -1,4 +1,4 @@
-import { Button, Grid2, Paper } from '@mui/material';
+import { Grid2, Paper } from '@mui/material';
 import styles from './ServicesSection.module.css';
 
 const ServicesSection = () => {

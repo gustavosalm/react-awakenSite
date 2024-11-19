@@ -1,4 +1,4 @@
-import { Button, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+import { List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import styles from './OfferCardComponent.module.css';
 import React from 'react';
 
