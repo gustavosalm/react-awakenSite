@@ -6,11 +6,15 @@ const FooterComponent = () => {
     return (
         <>
             <Grid2 className={styles.outerContainer} container columns={12}>
-                <Grid2 size={4} offset={2}>
+                <Grid2 className={styles.logoContainer} size={{xs: 12, sm: 4}} offset={{xs: 0, sm: 2}}>
                     <img className={styles.logoImg} src='./assets/IntroLogo.svg' />
                     <p>©Todos os direitos reservados, 2024.</p>
                 </Grid2>
-                <Grid2 className={styles.rightContainer} size={4} offset={0}>
+                <Grid2 className={styles.rightContainer} size={{xs: 10, sm: 4}} offset={{xs: 1, sm: 0}}>
+                    <div className={styles.startText}>
+                        <p><strong>Vá além da mudança</strong></p>
+                        <p>transforme seu negócio!</p>
+                    </div>
                     <p>Ou entre em contato via:</p>
                     <p><span>contato@awakenagencia.com.br</span></p>
                     <div className={styles.contacts}>

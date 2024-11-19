@@ -35,3 +35,34 @@
     height: 2.5rem;
     margin-left: 1rem;
 }
+
+.startText {
+    display: none;
+}
+
+.startText p {
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .rightContainer {
+        order: -1;
+        text-align: left;
+    }
+
+    .startText {
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .logoContainer {
+        padding: 2.5rem 0;
+        margin-top: 5rem;
+        text-align: center;
+        background-color: #181818;
+    }
+
+    .outerContainer {
+        padding-bottom: 0;
+    }
+}
