@@ -39,7 +39,7 @@ const ServicesSection = () => {
                         <p>Faça parte do grupo empresas que impulsionam seu crescimento e fidelizam seus clientes. Vá além, transforme seu negócio!</p>
                     </Grid2>
                     <Grid2 className={styles.buttonGridContainer} size={{xs: 10, sm: 2}} offset={{xs: 1, sm: 0}}>
-                        <Button color="secondary" variant="contained">solicitar orçamento!</Button>
+                        <button className='mainButton' >solicitar orçamento!</button>
                     </Grid2>
                 </Grid2>
             </Grid2>

@@ -54,7 +54,7 @@ const OfferCardComponent: React.FC<OfferCardComponent> = ({
                         <h2>VALORES DIFERENCIADOS</h2>
                     }
                 </div>
-            <Button className={styles.cardButton} color="secondary" variant="contained" >{buttonLabel}</Button>
+            <button className={styles.cardButton + ' mainButton'} >{buttonLabel}</button>
         </div>
     )
 }

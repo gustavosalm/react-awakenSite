@@ -23,7 +23,7 @@ const ClientSections = () => {
                     <p>A Awaken desenvolve estratégias de marca para que possa estabelecer uma conexão genuína com seu público.</p>
                     <p>Descubra como o Awaken revoluciona sua presença no digital, transformando interações sua marca com conteúdos memoráveis.</p>
                     <p>Com um time inovador e eficaz, somos a escolha ideal para alavancar seu negócio no ambiente digital.</p>
-                    <Button className={styles.budgetButton} color="secondary" variant="contained" >solicitar orçamento</Button>
+                    <button className={styles.budgetButton + ' mainButton'} >solicitar orçamento</button>
                 </Grid2>
             </Grid2>
         </>

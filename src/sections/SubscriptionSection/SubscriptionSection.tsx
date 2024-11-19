@@ -5,7 +5,7 @@ import OfferCardComponent from '../../components/OfferCardComponent/OfferCardCom
 const cardItems = [
     ['Gestão de tráfego', 'Social Media', 'Landing Page + suporte', 'Planejamento de conteúdo', 'Copywritting', 'Guia de tendências'],
     ['Gestão de rede social', 'Gestão de Tráfego pago', 'Copywritting', 'Campanha de vídeos', 'Identidade visual', 'Design para produtos/embalagens', 'Landing page + suporte', 'Endomarketing', 'Ações promocionais'],
-    ['Serviços únicos', 'Segundo sua necessidade', 'Demanda única e momentânea', 'Revenda', 'e muito mais!']
+    ['Serviços únicos', 'Segundo sua necessidade', 'Demanda única e momentânea', 'Campanhas Especiais', 'e muito mais!']
 ];
 
 const SubscriptionSection = () => {
@@ -24,7 +24,7 @@ const SubscriptionSection = () => {
                                 title='Creative'
                                 offerItems={cardItems[0]}
                                 buttonLabel='eu quero'
-                                priceLabels={['4.497', '1.697,50']}
+                                priceLabels={['4.497', '1.797,50']}
                             />
                         </Paper>
                     </Grid2>
