@@ -33,7 +33,7 @@ const SubscriptionSection = () => {
                             <OfferCardComponent
                                 title='Digital'
                                 offerItems={cardItems[1]}
-                                buttonLabel='solicitar orçamento'
+                                buttonLabel='eu quero'
                                 priceLabels={['7.239,97', '4.997,50']}
                             />
                         </Paper>

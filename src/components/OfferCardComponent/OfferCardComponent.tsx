@@ -54,7 +54,10 @@ const OfferCardComponent: React.FC<OfferCardComponent> = ({
                         <h2>VALORES DIFERENCIADOS</h2>
                     }
                 </div>
-            <button className={styles.cardButton + ' mainButton'} >{buttonLabel}</button>
+            <button
+                className={styles.cardButton + ' mainButton'}
+                onClick={() => window.open('http://wa.me/5521983921129', '_blank')}
+            >{buttonLabel}</button>
         </div>
     )
 }

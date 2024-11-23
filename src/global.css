@@ -32,4 +32,5 @@ body {
   padding: 1rem 1.75rem;
   background-color: #E06B9F;
   color: #FAFDFF;
+  cursor: pointer;
 }

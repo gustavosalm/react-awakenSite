@@ -20,7 +20,7 @@
 
 .logoImg {
     height: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
 }
 
 .rightContainer {
@@ -34,14 +34,19 @@
 .contacts img {
     height: 2.5rem;
     margin-left: 1rem;
+    cursor: pointer;
 }
 
 .startText {
     display: none;
 }
 
-.startText p {
+.startText p, .pcStartText p {
     font-weight: 400;
+}
+
+.pcStartText {
+    margin-bottom: .75rem;
 }
 
 @media (max-width: 600px) {
@@ -53,6 +58,10 @@
     .startText {
         display: block;
         margin-bottom: 1.5rem;
+    }
+
+    .pcStartText {
+        display: none;
     }
 
     .logoContainer {
